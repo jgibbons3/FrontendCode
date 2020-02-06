@@ -1,0 +1,61 @@
+.verifMainContainer {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../images/verificationBachground.jpg") ;
+    background-size: cover;
+}
+
+.backgroundLayer {
+    background-color: rgba(48, 48, 41, 0.7);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+.verifVerificationForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.verificationTitle1 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font: 'Roboto';
+    font-weight: 300;
+    font-size: 40px;
+    margin-top: 70px;
+    align-items: center;
+}
+
+.titlesverif {
+    margin: 0;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;   
+}
+
+.verifInput{ 
+    padding: 10px;
+    margin: 10px;
+    width: 450px;
+    height: 30px;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.verificButton {
+    width: 450px;
+    height: 50px;
+    border: transparent;
+    font-size: 16px;
+    color: black; 
+    background-color: rgb(202, 189, 174);
+    border-radius: 5px;
+    margin-left: 17px;
+}
